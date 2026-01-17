@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install && npm run build",
+    "build": "npm install --redstore && npm run build --redstore ",
     "lint": "eslint .",
     "start":"npm run dev",
     "preview": "vite preview"
